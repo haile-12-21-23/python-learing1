@@ -9,6 +9,7 @@ for x in range(4):
 # xx
 numbers = [5, 2, 5, 2, 2]
 for x in numbers:
-    for y in range(1):
-
-        print('x'*x)
+    output = ''
+    for y in range(x):
+        output += 'x'
+    print(output)
