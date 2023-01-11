@@ -1,3 +1,7 @@
+for file in path.glob('*.py'):
+#     print(file)
 
-result = dice.roll()
-print(result)
+# # to list all file  in the directory
+# print('All files')
+# for file in path.glob('*'):
+#     print(file)
